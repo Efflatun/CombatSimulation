@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+					<parameter name="randomSeed" displayName="Default Random Seed" type="int" 
+						defaultValue="2" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="foodsupplyregrowthtime" displayName="foodsupply regrowth time" type="int" 
+						defaultValue="30" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="initialnumberofgreenclan" displayName="initial number of green clan" type="int" 
+						defaultValue="20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="initialnumberofredclan" displayName="initial number of red clan" type="int" 
+						defaultValue="20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="initialnumberofblueclan" displayName="initial number of blue clan" type="int" 
+						defaultValue="20" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
+											/>
+				<parameter name="Clanreproduce" displayName="clan reproduce" type="double" 
+						defaultValue="5.0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+											/>
+				<parameter name="clangainfromfight" displayName="clan gain from fight" type="double" 
+						defaultValue="20.0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+											/>
+				<parameter name="clangainfromfood" displayName="clan gain from food" type="double" 
+						defaultValue="4.0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+											/>
+				<parameter name="runlength" displayName="run length" type="double" 
+						defaultValue="400.0" 
+						isReadOnly="false" 
+						converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+											/>
+		</parameters>
+
+
